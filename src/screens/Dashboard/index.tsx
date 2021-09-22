@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { Button } from '../Components/Button';
-import { Input } from '../Components/Input';
+import { Button } from '../../components/Button';
+import { Input } from '../../components/Input';
+import { Card } from '../../components/Card';
 
 import { CardView, Container, Form, Icon, Title } from './styles';
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Alert, FlatList } from 'react-native';
-import { Card } from '../Components/Card';
 
 interface SchoolProps {
   name: string;
